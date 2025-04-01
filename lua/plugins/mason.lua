@@ -1,5 +1,3 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- Customize Mason
 
 ---@type LazySpec
@@ -11,14 +9,22 @@ return {
     opts = {
       -- Make sure to use the names found in `:Mason`
       ensure_installed = {
-        -- install language servers
+        -- language servers
         "lua-language-server",
+        "bash-language-server",
+        "awk-language-server",
+        "gh-actions-language-server",
+        "gradle-language-server",
+        "jdtls",
+        "kotlin-language-server",
+        "typescript-language-server",
 
         -- install formatters
         "stylua",
 
         -- install debuggers
-        "debugpy",
+        "java-debug-adapter",
+        "kotlin-debug-adapter",
 
         -- install any other package
         "tree-sitter-cli",
