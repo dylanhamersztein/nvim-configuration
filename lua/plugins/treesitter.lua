@@ -5,6 +5,7 @@ return {
     ensure_installed = {
       "lua",
       "vim",
+      "rust",
     },
   },
 }

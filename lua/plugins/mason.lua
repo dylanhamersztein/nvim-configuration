@@ -18,6 +18,7 @@ return {
         "jdtls",
         "kotlin-language-server",
         "typescript-language-server",
+        "rust-analyzer",
 
         -- install formatters
         "stylua",
